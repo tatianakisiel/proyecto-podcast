@@ -1,0 +1,23 @@
+#news{
+    position: relative;
+    h2{
+        text-align: center;
+        margin-bottom: 2.25rem;
+    }
+
+}
+
+.news-container{
+    padding: 4rem 0 4.19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width:768px){
+    #news{
+        .news-container{
+            padding: 13.31rem 0 9.44rem;
+            
+        }
+    }
+}

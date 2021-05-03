@@ -1,0 +1,125 @@
+header{
+    background-color: $color-clear;
+    
+
+}
+.logo-nav{
+    position: absolute;
+    margin-top: 0.63rem;
+    margin-left: 1rem;
+    z-index: 1;
+}
+
+input{
+    display: none;
+    &:checked~nav{
+        max-height: 500px;
+        transition: max-height 0.30s ease-in;
+    }
+    &:checked~label{
+        #bars{
+            display: none;
+        }
+    }
+    &:checked~label{
+        #crux{
+            display: inline-block;
+        }
+    }
+}
+
+#crux{
+    display: none;
+}
+
+label{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 2.75rem;
+    padding: 0 1rem;
+}
+nav{
+    background-color: $color-nav;
+    font-family:$font-nav;
+    line-height: 1.75rem; //28px
+    padding-left: 1rem;
+    position: absolute;
+    background-color: $color-nav;
+    width: 100%;
+    max-height: 0;
+    transition: max-height 0.15s ease-out;
+    overflow: hidden;         
+}
+
+li{
+    padding-bottom: 1.5rem;
+    &:first-child{
+        padding-top: 1rem;
+    }
+    a{
+        color: $color-clear;
+    }
+}
+
+
+@media (min-width:768px){
+    header{
+        height: 5rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;        
+        
+    }
+    .logo-nav{
+        margin-top: 0;
+        margin-left: 0;
+        left: 6.25rem;
+        right: 3rem;
+        width: 2.25rem;
+        height: auto;
+    }
+
+    #crux, #bars, input, label{
+        display: none;
+    }
+
+    nav{
+        background-color: $color-clear;
+        max-height: none;
+        padding-left: 3rem;   
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    li{
+        padding-bottom: 0;
+        padding-right: 3rem;
+        &:first-child{
+            padding-top: 0;
+        }
+        &:last-child{
+            padding-right: 6.25rem;
+        }
+        a{
+            color: $color-font;
+            &:hover{
+                color:$color-button;
+                text-decoration: line-through;
+            }
+            &:active{
+                color:$color-font-t;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

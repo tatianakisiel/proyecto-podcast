@@ -1,0 +1,39 @@
+// General Settings
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    text-decoration: none;
+    font-weight: normal;
+    box-sizing: content-box;
+    list-style: none;
+    letter-spacing: 0;
+}
+
+//Fonts
+$font-titles:"IBM Plex Sans", sans-serif;
+$font-main:"IBM Plex Mono", monospace;
+$font-nav:"IBM Plex Mono", monospace;
+//tiene que ser medium IBMPlexMono-Medium 500
+//para en los t'opicos  IBMPlexSans-SemiBold 600
+
+$font-size:16px;
+$font-sm:14px;
+$font-md:18px;
+$font-lg:24px;
+
+// Colors
+$color-font:#060A24;
+$color-clear:#FFFFFF;
+$color-nav:#0000EC;
+$color-button: #00F3BB;
+
+$color-gradient-bg1:#0000A3;
+$color-gradient-bg2:#0000FF;
+
+
+$color-gradient-btn1:#0000FE;
+$color-gradient-btn2:#00F0B8;
+
+$color-font-t: rgba(6,10,36,0.56);
+

@@ -1,0 +1,28 @@
+
+// Utilities
+@import "1-utilities/normalize.css";
+@import "1-utilities/_variables.scss";
+// Quarks
+@import "2-quarks/_general.scss";
+// Atoms
+@import "3-atoms/_buttons.scss";
+@import "3-atoms/_clases.scss";
+// Molecules
+@import "4-molecules/_navbar.scss";
+@import "4-molecules/_intro.scss";
+@import "4-molecules/_episodes.scss";
+@import "4-molecules/_about-us.scss";
+@import "4-molecules/_interviews.scss";
+@import "4-molecules/_topics.scss";
+@import "4-molecules/_news.scss";
+@import "4-molecules/_footer.scss";
+
+
+// @import "_menu.scss";
+// @import "_main.scss";
+// @import "_episodes.scss";
+// @import "_aboutus.scss";
+// @import "_entrevistades.scss";
+// @import "_topicos.scss";
+// @import "_novedades.scss";
+// @import "_footer.scss";

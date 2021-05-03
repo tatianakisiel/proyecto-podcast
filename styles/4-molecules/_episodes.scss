@@ -1,0 +1,44 @@
+iframe{
+    width:100%;
+    height:232px; 
+}
+
+#episodes{
+    position: relative;
+    h2{
+        margin: 0 1rem;
+    }
+}
+.episodes-container{
+    padding: 4rem 0 8.97rem;
+
+}
+
+.spotify-container{
+    margin: 0 0.69rem;
+    padding-top:1.31rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.69rem;
+}
+
+
+@media (min-width:768px){
+    #episodes{
+        h2{
+            margin: 0 13.89%;
+        }
+    }
+    .episodes-container{
+        padding: 11.63rem 0 14.54rem;
+    }
+    .spotify-container{
+        margin: 0 6.25rem;
+        padding-top:1.63rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4.5rem;
+    }
+
+}
+

@@ -1,0 +1,25 @@
+.intro{
+    margin-top: 1.81rem;
+    margin-bottom: 1.25rem;
+    h1{
+        margin-bottom: 1rem;
+    }
+    p{
+        max-width: 30rem;
+        margin-bottom: 2.25rem;
+    }   
+}
+@media (min-width:756px){
+    .intro{
+        margin:  7.5rem 13.89% 0.31rem; 
+        h1{
+            margin: 0;
+        }
+        p{
+            max-width: 39.25rem;
+            margin-bottom: 3.5rem;
+        }
+    }
+
+
+}

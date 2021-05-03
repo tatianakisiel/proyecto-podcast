@@ -1,0 +1,35 @@
+#interviews{
+    h2{
+        margin: 0 1rem  0.88rem;
+    }
+}
+
+.interviews-guests{ 
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width:640px){
+    .interviews-guests{     
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+
+@media (min-width:768px){
+    #interviews{
+        h2{
+            margin: 0 13.89% 2.25rem;
+        }
+    } 
+    .interviews-guests{     
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}

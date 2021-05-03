@@ -1,0 +1,48 @@
+#about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img{
+        width:20rem;
+        height: auto;
+    }
+    p{  
+        padding: 0.5rem 0;
+    }  
+}
+.img-position{
+    position: relative;
+    z-index: 1;
+    margin-top: -95.5px;
+    align-self: center;    
+}
+.about-us-container{
+   margin: 1.69rem 0 3.38rem;
+}
+
+
+@media (min-width:768px){
+    #about-us{
+        margin: 0;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        img{
+            width: 28.6rem;
+            height: auto;
+        }
+        h2{
+            margin-bottom: 1.5rem;
+        }
+        p{
+            max-width: 29rem;
+        }
+        .about-us-container{
+            padding: 0  4.33%; 
+        }     
+    }
+    .img-position{
+        margin-top:-165.6px;
+    }
+}

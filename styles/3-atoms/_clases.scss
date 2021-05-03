@@ -1,0 +1,69 @@
+// clases generales
+.line-through{
+    text-decoration: line-through;
+}
+
+.color-clear{
+    color:$color-clear;
+}
+
+.show-mobile{
+    display: block;
+}
+
+.show-screen{
+    display: none;
+}
+
+.margin-mobile{
+    margin: 0 1rem;
+}
+
+
+@media (min-width:768px){
+    .color-change{
+        color: $color-nav;
+    }
+    .show-mobile{
+        display: none;
+    }
+    .show-screen{
+        display: block;
+    }
+    .line-through{
+        font-size: 4rem; 
+    }
+    h2{
+        font-size:3rem;
+    }
+
+}
+
+
+// Fondos gradientes
+.bg-gradient{
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(225deg,$color-gradient-bg2 0%, $color-gradient-bg1 100%); 
+    width: 100%;
+    height: 100%;
+}
+
+.polygon-parallelogram{
+    clip-path: polygon(0% 3%, 100% 0%, 100% calc(100% - 3%), 0% 100%);
+}
+
+.polygon-trapeze{
+    clip-path: polygon(0% 8%, 100% 0%, 100% 100%, 0% 100%);    
+}
+
+
+@media (min-width: 768px){
+    .polygon-parallelogram{
+        clip-path: polygon(0% 13%, 100% 0%, 100% calc(100% - 13%), 0% 100%);
+    }
+    .polygon-trapeze{
+        clip-path: polygon(0% 13%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+

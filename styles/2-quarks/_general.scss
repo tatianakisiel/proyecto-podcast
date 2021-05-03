@@ -1,0 +1,54 @@
+header{
+    position: relative;
+}
+
+h1,h2{
+    font-family: $font-titles;
+    font-size:2.25rem; //36px
+    line-height:2.625rem; //42px
+
+    color: $color-font;
+}
+
+p{
+    font-family: $font-main;
+    font-size: 0.875rem; //14px
+    line-height: 1.375rem; //22px
+    color: $color-font;
+    text-align: justify;
+}
+
+
+span{
+    font-family: $font-titles;
+    font-size:2.25rem; //36px
+    line-height:2.625rem; //42px
+    color: $color-font;
+}
+
+@media (min-width:768px){
+    h1{
+        font-size: 4rem; //64px
+        line-height: 5.25rem;//84px
+    }
+    h2{
+        font-size: 3rem; //48px
+        line-height: 3.875rem; //62px
+    }
+    p{
+        font-size: 1rem; //16px
+        line-height: 1.5rem; //24px
+    }
+    span{
+        font-size: 4rem; //64px
+        line-height: 5.25rem;//84px
+    }
+
+}
+
+@media (min-width:1440px){
+    body{
+       max-width: 1440px;
+       margin:auto;
+    }
+}
